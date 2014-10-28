@@ -1,0 +1,2 @@
+class vid_poker
+end
