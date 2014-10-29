@@ -19,6 +19,12 @@ class VideoPoker
         @hand = @deck.get_cards(5)
     end
 
+    def discard
+    end
+
+    def draw
+    end
+
     def has_pair?(hand)
     end
 
@@ -53,6 +59,9 @@ class VideoPoker
     end
 
     def print_hand
+        @hand.each do |card|
+            puts card
+        end
     end
 
     def load_player_data
